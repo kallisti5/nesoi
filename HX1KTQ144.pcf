@@ -1,0 +1,13 @@
+set_io clk 21
+
+set_io LED_OK 95
+set_io LED_FAULT 96
+
+set_io TMDSp[0] 44
+set_io TMDSn[0] 45
+set_io TMDSp[1] 47
+set_io TMDSn[1] 48
+set_io TMDSp[2] 56
+set_io TMDSn[2] 60
+set_io TMDS_pclk 119
+set_io TMDS_nclk 118
