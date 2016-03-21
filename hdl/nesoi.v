@@ -30,7 +30,7 @@ module top(
 
   // XXX: This really needs 25Mhz
   HDMI_encoder TESTCODE (
-    .pixclk(clk),
+    .TMDSclk(clk),
     .TMDSp(TMDSp),
     .TMDSn(TMDSn),
     .TMDSp_clock(TMDS_pclk),
