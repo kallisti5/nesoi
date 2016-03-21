@@ -48,7 +48,7 @@ module top(
   );
 
   // XXX: This really needs 25Mhz
-  HDMI_encoder TESTCODE (
+  HDMI_encoder HDMITEST (
     .TMDSclk(TMDSclk),
     .TMDSp(TMDSp),
     .TMDSn(TMDSn),
@@ -65,8 +65,7 @@ module HeartBeat(
 
   wire monitor;
   reg [26:0] counter;
-  assign monitor = counter[20];
-  always @(posedge signal) begin
-    counter <= counter + 1;
-  end
+  assign monitor = counter[18];
+  always @(posedge signal) counter <= counter + 1;
+
 endmodule
