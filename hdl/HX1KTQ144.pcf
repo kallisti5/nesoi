@@ -2,6 +2,7 @@ set_io clk 21
 
 set_io LED_OK 95
 set_io LED_FAULT 98
+set_io DEBUG_CLK 112
 
 set_io TMDSp[0] 44
 set_io TMDSn[0] 45

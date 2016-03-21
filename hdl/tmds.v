@@ -48,7 +48,7 @@ end
 SB_GB_IO LVDS_red   (.D_IN_0(TMDS_shift_red  [0]), .D_OUT_0(TMDSp[2]),    .D_OUT_1(TMDSn[2]));
 SB_GB_IO LVDS_green (.D_IN_0(TMDS_shift_green[0]), .D_OUT_0(TMDSp[1]),    .D_OUT_1(TMDSn[1]));
 SB_GB_IO LVDS_blue  (.D_IN_0(TMDS_shift_blue [0]), .D_OUT_0(TMDSp[0]),    .D_OUT_1(TMDSn[0]));
-SB_GB_IO LVDS_clock (.D_IN_0(TMDSclk),              .D_OUT_0(TMDSp_clock), .D_OUT_1(TMDSn_clock));
+SB_GB_IO LVDS_clock (.D_IN_0(TMDSclk),             .D_OUT_0(TMDSp_clock), .D_OUT_1(TMDSn_clock));
 
 // Xilinx
 //OBUFDS OBUFDS_red  (.I(TMDS_shift_red  [0]), .O(TMDSp[2]), .OB(TMDSn[2]));
